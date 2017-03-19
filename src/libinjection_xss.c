@@ -341,11 +341,11 @@ static attribute_t is_black_attr(const char* s, size_t len)
     }
 
     if (len >= 5) {
-        /* JavaScript on.* */
-        if ((s[0] == 'o' || s[0] == 'O') && (s[1] == 'n' || s[1] == 'N')) {
-            /* printf("Got JavaScript on- attribute name\n"); */
-            return TYPE_BLACK;
-        }
+//        /* JavaScript on.* */
+//        if ((s[0] == 'o' || s[0] == 'O') && (s[1] == 'n' || s[1] == 'N')) {
+//            /* printf("Got JavaScript on- attribute name\n"); */
+//            return TYPE_BLACK;
+//        }
 
 
         /* XMLNS can be used to create arbitrary tags */
