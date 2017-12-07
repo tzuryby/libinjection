@@ -347,7 +347,6 @@ static attribute_t is_black_attr(const char* s, size_t len)
             return TYPE_BLACK;
         }
 
-
         /* XMLNS can be used to create arbitrary tags */
         if (cstrcasecmp_with_null("XMLNS", s, 5) == 0 || cstrcasecmp_with_null("XLINK", s, 5) == 0) {
             /*      printf("Got XMLNS and XLINK tags\n"); */
